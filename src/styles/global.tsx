@@ -43,6 +43,8 @@ export default createGlobalStyle`
   body{
     background: var(--background);
     color: var(--text);
+
+    
   }
 
   body, input, textarea, button{
@@ -71,6 +73,32 @@ export default createGlobalStyle`
       "sidenav content announcement"
       "footer footer footer"
     ;
-
   }
+
+  @media (max-width: 1200px){
+    .structure{
+      grid-template-areas:
+        "header header"
+        "sidenav content content"
+        "sidenav announcement announcement"
+        "footer footer footer"
+      ;
+    }
+  }
+
+  @media (max-width: 760px){
+    .structure{
+
+      grid-template-columns: 100%;
+      grid-template-areas:
+        "header"
+        "sidenav"
+        "content"
+        "announcement"
+        "footer"
+      ;
+    }
+  }
+
+  
 `;
