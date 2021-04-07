@@ -22,6 +22,24 @@ export const Container = styled.header`
     }
   }
 
+  @media (max-width: 760px) {
+    grid-template-columns: auto;
+
+    a img {
+      margin-bottom: 20px;
+    }
+
+    nav a {
+      font-size: 1em;
+    }
+
+    nav ul {
+      li + li {
+        margin-left: 10px;
+      }
+    }
+  }
+
   nav a {
     display: block;
     padding: 10px;
@@ -30,10 +48,9 @@ export const Container = styled.header`
     background: rgba(0, 0, 0, 0.1);
     border-radius: 0.3125rem;
     transition: 0.1s;
-
   }
 
-  nav a:hover{
+  nav a:hover {
     background: rgba(0, 0, 0, 0.5);
     transition: 0.1s;
   }

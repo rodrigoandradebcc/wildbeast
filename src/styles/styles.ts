@@ -138,6 +138,10 @@ export const Footer = styled.footer`
   grid-area: footer;
   background: linear-gradient(135deg, #8844ee, #b07dfb);
 
+  font-size: 1.2em;
+  line-height: 1.6;
+  letter-spacing: -0.005em;
+
   p {
     color: white;
     text-align: center;

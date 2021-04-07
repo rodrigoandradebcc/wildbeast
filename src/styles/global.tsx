@@ -28,8 +28,8 @@ export default createGlobalStyle`
   }
 
   img{ 
-    max-width: 100%;
     display: block;
+    max-width: 100%;
     border-radius: 5px;
   }
 
@@ -78,7 +78,7 @@ export default createGlobalStyle`
   @media (max-width: 1200px){
     .structure{
       grid-template-areas:
-        "header header"
+        "header header header"
         "sidenav content content"
         "sidenav announcement announcement"
         "footer footer footer"
