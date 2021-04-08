@@ -29,7 +29,7 @@ export default createGlobalStyle`
 
   img{ 
     display: block;
-    max-width: 100%;
+    width: 100%;
     border-radius: 5px;
   }
 
@@ -100,5 +100,12 @@ export default createGlobalStyle`
     }
   }
 
+  ::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+  }
   
 `;

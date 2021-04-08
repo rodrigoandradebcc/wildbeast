@@ -36,6 +36,7 @@ export const Container = styled.div`
     -webkit-overflow-scrolling: touch;
     -ms-overflow-style: -ms-autohiding-scrollbar;
     position: relative;
+    
 
     &::after {
       content: '→';

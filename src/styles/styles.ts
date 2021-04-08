@@ -16,6 +16,10 @@ export const Main = styled.main`
     max-width: 16em;
   }
 
+  @media (max-width: 600px) {
+    grid-template-columns: auto;
+  }
+
   .col-wide {
     grid-column: 1 / -1;
   }
@@ -130,6 +134,7 @@ export const Aside = styled.aside`
   align-content: start;
   padding: 30px;
   grid-gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 `;
 
 export const AdItem = styled.div``;
