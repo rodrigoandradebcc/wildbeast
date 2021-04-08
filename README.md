@@ -5,3 +5,4 @@
 # Tecnologias Utilizadas
 - Next
 - StyledComponents
+- CSS - Grid Layout
