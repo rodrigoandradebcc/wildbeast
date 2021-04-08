@@ -32,11 +32,10 @@ export const Container = styled.div`
   }
 
   @media (max-width: 760px) {
-    overflow-x: auto;
+    overflow-x: scroll;
     -webkit-overflow-scrolling: touch;
     -ms-overflow-style: -ms-autohiding-scrollbar;
     position: relative;
-    
 
     &::after {
       content: '→';
