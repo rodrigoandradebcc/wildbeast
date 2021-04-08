@@ -99,13 +99,5 @@ export default createGlobalStyle`
       ;
     }
   }
-
-  ::-webkit-scrollbar {
-    width: 4px;
-  }
-
-  ::-webkit-scrollbar-thumb {
-    border-radius: 4px;
-  }
   
 `;
